@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.titulo{
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.titulo-joker{
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.titulo-loki{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(208, 100%, 29%, 0.404), hsla(234, 100%, 8%, 0.404)), url(..C:\Users\mario\Documents\GitHub\SuperHeroMaster\src\img\portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0; 
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;    
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300; 
+    color: #fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/* CAP */
+
+.contenedor-heroe img{
+    width: 580px;
+    height: 365px;
+}
+
+.contenedor-heroe{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+    color: darkblue;
+    
+}
+
+.contenido-textos p{
+
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+.contenido-textos a{
+    text-decoration: none;
+    padding: 0px 0px 30px 15px;
+    
+}
+
+.contenido-textos a:hover{
+    text-decoration: underline;
+    padding: 0px 0px 30px 15px;
+    
+}
+
+.contenido-textos-joker h3{
+    margin-bottom: 15px;
+    color: purple;
+}
+
+
+
+.contenido-textos-joker p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+     
+}
+
+.contenido-textos-joker a{
+    text-decoration: none;
+    padding: 0px 0px 30px 15px;
+    
+}
+
+.contenido-textos-joker a:hover{
+    text-decoration: underline;
+    padding: 0px 0px 30px 15px;
+    
+}
+
+.contenido-textos-loki h3{
+    margin-bottom: 15px;
+    color: green;
+}
+
+.contenido-textos-loki p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+     
+}
+
+.contenido-textos-loki a{
+    text-decoration: none;
+    padding: 0px 0px 30px 15px;
+    
+}
+
+.contenido-textos-loki a:hover{
+    text-decoration: underline;
+    padding: 0px 0px 30px 15px;
+    
+}
+
+/* FOOTER */
+
+footer{
+    background: #0F2027;  /* fallback for old browsers */
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(208, 100%, 29%, 0.404), hsla(234, 100%, 8%, 0.404));
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+
+}
+.content-foot{
+    text-align: center;
+
+}
+
+.content-foot h4{
+    text-align: center;
+    color: #fff;
+
+}
+
+.content-foot h5{
+    text-align: center;
+    color: #fff;
+
+}
